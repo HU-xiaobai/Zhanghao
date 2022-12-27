@@ -12,3 +12,4 @@ However, in terms of the shortcomings of current researches, we might ask the fo
 2. Could machine generate questions about a video and reveal the inference/description of the whole event?
 3. Could machine generate question about multiple images and reveal their inter relations? 
 4. How could we evaluate the "meaningful" and "inferential" of the generated questions and then classify the questions with high meaning and inference? 
+5. Could we add the constraints about the type of the generated questions?
