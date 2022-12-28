@@ -46,9 +46,17 @@ In addition, spefically, in VQG tasks, some novel metrics are invented to measur
 * Predicting Difficulty and Discrimination of Natural Language Questions. Matthew A. Byrd and Shashank Srivastava. 2022
 
 ## VQG Models
-This section we would list current VQG models in terms of training process condition, accompanyed by their methods.
+This section we would list current VQG models in terms of training process condition.
 ### Unconditional VQG
 This part we would list papers about the current work about the VQG without constrains.(The input is only images.)
-
-
+* Generating Natural Questions About an Image. Nasrin Mostafazadeh, Ishan Misra, Jacob Devlin, Margaret Mitchell, Xiaodong He and Lucy Vanderwende. 2016
+* Learning by Asking Questions. Ishan Misra, Ross Girshick, Rob Fergus, Martial Hebert, Abhinav Gupta, Laurens van der Maaten; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 11-20
+* Goal-Oriented Visual Question Generation via Intermediate Rewards. Junjie Zhang, Qi Wu, Chunhua Shen, Jian Zhang, Jianfeng Lu, Anton van den Hengel; Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp. 186-201
+* A Reinforcement Learning Framework for Natural Question Generation using Bi-discriminators. Zhihao Fan, Zhongyu Wei, Siyuan Wang, Yang Liu and Xuanjing Huang. 2018
+* Visual Curiosity: Learning to Ask Questions to Learn Visual Recognition. Jianwei Yang, Jiasen Lu, Stefan Lee, Dhruv Batra and Devi Parikh. Proceedings of The 2nd Conference on Robot Learning, PMLR 87:63-80, 2018.
 ### Conditional VQG
+This part we would list papers about the current work about the VQG with various constrains(such as answers, image caption, vedio, etc.)
+* Generating Natural Questions from Images for Multimodal Assistants. Alkesh Patel, Akanksha Bindal, Hadas Kotek, Christopher Klein and Jason Williams. 2021 (with image captions)
+* Inferential Visual Question Generation. Chao Bi, Shuhui Wang, Zhe Xue, Shengbo Chen and Qingming Huang. 2022 (with image caption)
+* IVQA: Inverse Visual Question Answering. Feng Liu, Tao Xiang, Timothy M. Hospedales, Wankou Yang and Changyin Sun; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 8611-8619 (with answers)
+* Information Maximizing Visual Question Generation. Ranjay Krishna, Michael Bernstein, Li Fei-Fei; Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019, pp. 2008-2018 (with answers)
