@@ -55,7 +55,7 @@ This part we would list papers about the current work about the VQG without cons
 * A Reinforcement Learning Framework for Natural Question Generation using Bi-discriminators. Zhihao Fan, Zhongyu Wei, Siyuan Wang, Yang Liu and Xuanjing Huang. 2018
 * Visual Curiosity: Learning to Ask Questions to Learn Visual Recognition. Jianwei Yang, Jiasen Lu, Stefan Lee, Dhruv Batra and Devi Parikh. Proceedings of The 2nd Conference on Robot Learning, PMLR 87:63-80, 2018.
 ### Conditional VQG
-This part we would list papers about the current work about the VQG with various constrains(such as answers, image caption, vedio, etc.) Current works prefer to focusing on inference of the VQG. However, there are less inputs with multiple images/videos and knowledge based for VQG. Hence we propose our first and third questions. 
+This part we would list papers about the current work about the VQG with various constrains(such as answers, image caption, vedio, etc.) Current works prefer to focusing on inference of the VQG. However, there are few researches whose inputs are multiple images/videos or knowledge based for VQG. Hence we propose our first and third questions. 
 * Generating Natural Questions from Images for Multimodal Assistants. Alkesh Patel, Akanksha Bindal, Hadas Kotek, Christopher Klein and Jason Williams. 2021 (with image captions)
 * Inferential Visual Question Generation. Chao Bi, Shuhui Wang, Zhe Xue, Shengbo Chen and Qingming Huang. 2022 (with image caption)
 * IVQA: Inverse Visual Question Answering. Feng Liu, Tao Xiang, Timothy M. Hospedales, Wankou Yang and Changyin Sun; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 8611-8619 (with answers)
