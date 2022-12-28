@@ -24,7 +24,7 @@ Most VQG tasks are completed by deep learning network. To better understand the 
 * Speech and Language Processing (3rd edition). Dan Jurafsky and James H. Martin. 2022 
 
 ### Deep learning models applied in VQG
-Various deep learning models and framework are applied into VQG tasks. However, the inter model components are nearly the same or the variants from basic models. The papers below list the basic components.
+Various deep learning models and framework are applied into VQG tasks. However, the internal model components are nearly the same or the variants from basic models. The papers below list the basic components.
 * Compact Bilinear Pooling. Yang Gao, Oscar Beijbom, Ning Zhang, Trevor Darrell; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 317-326
 * Auto-Encoding Variational Bayes. Diederik P Kingma and Max Welling. 2013
 * Learning Internal Representations by Error Propagation(Recurrent Neural Network). Rumelhart David E, Hinton Geoffrey E and  Williams Ronald J. 1985
@@ -33,7 +33,7 @@ Various deep learning models and framework are applied into VQG tasks. However, 
 * Generative adversarial networks. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville and Yoshua Bengio. 2014
 
 ### Evaluation metrics
-After we complete VQG tasks, we should evaluate our VQG systems to compare the state-of-the-art technique. These papers below list general evaluation metrics for VQG tasks. However, until now, actually there are not precise evaluation methods to measure some properties of VQG tasks such as ambiguity, difficulty, meaningful etc, even accuracy. Further more, the definition of these properties of VQG are also ambigious without the same standard. 
+After we complete VQG tasks, we should evaluate our VQG systems to compare the state-of-the-art technique. These papers below list general evaluation metrics for VQG tasks. However, until now, actually there are not precise evaluation methods to measure some properties of VQG tasks such as ambiguity, difficulty, meaningful etc, even accuracy. Further more, the definition of these properties of VQG are also ambigious without the same standard. Hence we propose the fourth question above.
 * BLEU: a method for automatic evaluation of machine translation. Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002
 * METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments. Satanjeev Banerjee and Alon Lavie. 2005
 * ROUGE: A package for automatic evaluation of summaries. Chin-Yew Lin. 2004
@@ -45,3 +45,10 @@ In addition, spefically, in VQG tasks, some novel metrics are invented to measur
 * Creativity: Generating Diverse Questions Using Variational Autoencoders. Unnat Jain, Ziyu Zhang and Alexander G. Schwing; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 6485-6494
 * Predicting Difficulty and Discrimination of Natural Language Questions. Matthew A. Byrd and Shashank Srivastava. 2022
 
+## VQG Models
+This section we would list current VQG models in terms of training process condition, accompanyed by their methods.
+### Unconditional VQG
+This part we would list papers about the current work about the VQG without constrains.(The input is only images.)
+
+
+### Conditional VQG
