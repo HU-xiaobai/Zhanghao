@@ -32,3 +32,14 @@ Various deep learning models and framework are applied into VQG tasks. However, 
 * Attention is All you Need. Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser and Illia Polosukhin. 2017
 * Generative adversarial networks. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville and Yoshua Bengio. 2014
 
+### Evaluation metrics
+After we complete VQG tasks, we should evaluate our VQG systems to compare the state-of-the-art technique. These papers below list general evaluation metrics for VQG tasks. However, until now, actually there are not precise evaluation methods to measure some properties of VQG tasks such as ambiguity, difficulty, meaningful etc, even accuracy. Further more, the definition of these properties of VQG are also ambigious without the same standard. 
+* BLEU: a method for automatic evaluation of machine translation. Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002
+* METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments. Satanjeev Banerjee and Alon Lavie. 2005
+* ROUGE: A package for automatic evaluation of summaries. Chin-Yew Lin. 2004
+* CIDEr: Consensus-Based Image Description Evaluation. Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015, pp. 4566-4575
+
+In addition, spefically, in VQG tasks, some novel metrics are invented to measure different properties:
+
+* IVQA: Inverse Visual Question Answering. Feng Liu, Tao Xiang, Timothy M. Hospedales, Wankou Yang and Changyin Sun; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 8611-8619
+* Creativity: Generating Diverse Questions Using Variational Autoencoders. Unnat Jain, Ziyu Zhang and Alexander G. Schwing; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 6485-6494
