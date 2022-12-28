@@ -43,3 +43,5 @@ In addition, spefically, in VQG tasks, some novel metrics are invented to measur
 
 * IVQA: Inverse Visual Question Answering. Feng Liu, Tao Xiang, Timothy M. Hospedales, Wankou Yang and Changyin Sun; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 8611-8619
 * Creativity: Generating Diverse Questions Using Variational Autoencoders. Unnat Jain, Ziyu Zhang and Alexander G. Schwing; Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 6485-6494
+* Predicting Difficulty and Discrimination of Natural Language Questions. Matthew A. Byrd and Shashank Srivastava. 2022
+
